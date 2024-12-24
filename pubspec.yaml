@@ -1,0 +1,24 @@
+name: disease_information
+description: A Flutter app for displaying disease information and first aid instructions.
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  image_picker: ^0.8.5+3  # Make sure to use the latest version
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+ #assets:
+    #- assets/images/ # Add this line if you plan to include any images in the assets folder
